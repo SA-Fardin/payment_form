@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,800,900&amp;subset=cyrillic" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <title>
+            Payment-form
+        </title>
+</head>
+<body>
+      
+       <div class="popup">
+       	
+       	<div class="popup__header"><div class="container"><div class="popup__harold-div"><h5 class="popup__heading-five">Harold Finch</h5>
+					                <p class="popup__description">Your Total</p></div>   
+					                <div class="popup__dollar-div"><p class="popup__dollar">&#36;88</p></div></div></div>
+
+        <div class="popup__main">
+        	<div class="container"><form class="popup__form"><label for="credit-card-num" class="popup__credit-card-label">Credit card number</label>
+		            		<input type="number" name="" class="popup__credit-card-input" value="credit-card-num"/>
+
+		            		<label for="expiration-date" class="popup__expiration-date-label">Expiration date</label>
+		            		<input list="months" name="months" placeholder="Month" class="popup__expiration-months-input" id="expiration-date"/>
+
+		            		<datalist id="months" class="popup__datalist"/>
+		            			<option value="January" class="popup__option"></option>
+		            			<option value="February" class="popup__option"></option>
+		            			<option value="March" class="popup__option"></option>
+		            			<option value="April" class="popup__option"></option>
+		            			<option value="May" class="popup__option"></option>
+		            			<option value="Jun" class="popup__option"></option>
+		            			<option value="July" class="popup__option"></option>
+		            			<option value="August" class="popup__option"></option>
+		            			<option value="September" class="popup__option"></option>
+		            			<option value="October" class="popup__option"></option>
+		            			<option value="November" class="popup__option"></option>
+		            			<option value="December" class="popup__option"></option>
+	            		    </datalist>
+	            		    <input list="years" name="years" placeholder="Years" class="popup__expiration-years-input" id="expiration-date" />
+	            		    <datalist id="years" class="popup__datalist">
+	            		    	<option value="2010"class="popup__option"></option>
+		            			<option value="2011" class="popup__option"></option>
+		            			<option value="2012"class="popup__option"></option>
+		            			<option value="2013"class="popup__option"></option>
+		            			<option value="2014"class="popup__option"></option>
+		            			<option value="2015"class="popup__option"></option>
+		            			<option value="2016"class="popup__option"></option>
+		            			<option valu="2017"class="popup__option"></option>
+		            			<option value="2018"class="popup__option"></option>
+		            			<option value="2019"class="popup__option"></option>
+		            		</datalist>
+		            		 <label for="cvv" class="popup__cvv-label">CVV</label>
+                            <input type="number" name="" min="0" max="4" id="cvv" class="popup__cvv-input"/>
+                            <p class="popup__cvv-paragraph">3 or 4 digits - <a href="#" class="popup__cvv-link">view example</a></p>
+                            <hr/>
+                            <input type="submit" name="" value="Pay" class="popup__submit-input"/>
+                         
+        </form></div></div>
+        <div class="popup__footer"><div class="container"><a href="#" class="popup__link">Cancel order</a></div></div>
+       </div>	
+</body>
+</html>

@@ -1,0 +1,172 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+body {
+	background-image: url("../images/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Montserrat', sans-serif;   
+}
+
+@import 'normalize';
+
+.popup {
+    width: 100%;
+	max-width: 336px;
+	margin: 0 auto;
+	transform: translatey(20%);	
+	background-color: #ffffff;
+	transform: translatey(12%);
+}
+
+.container{
+	width: 100%;
+	max-width: 288px;
+	margin: 0 auto;
+}
+
+.popup{
+
+    &__header{ 
+	color: #6c7c79;
+    background-color: #eee4aa;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    }
+    
+    &__harold-div {
+    	width: 100%;
+    	max-width: calc(100% - 75px);
+    	display: inline-block;
+    }
+
+    &__dollar-div {
+    	display: inline-block;
+    }
+
+    &__heading-five {
+        display: block;
+    	font-size: 14px;
+    	margin-bottom: 3px;
+    }
+
+    &__description{
+    	font-size: 10px;
+    	margin-top: 3px;
+    	display: block;
+    }
+
+    &__dollar{
+    	font-size: 36px;
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	display: inline-block;
+    }
+
+    &__form {
+    	margin-top: 46px;
+    	color: #6c7c79; 
+    }
+
+    &__credit-card-input {
+    	width: 100%;
+    	margin-top: 10px;
+    	margin-bottom: 29px;
+    	border: solid 2px #6c7c79;
+    	outline: none;
+    	padding: 10px;	
+            &:focus{
+    		border: solid 2px #7fcddf;
+    		}
+    	}
+
+    	&__expiration-date-label {
+    		display: block;
+    	}
+
+    &__expiration-months-input {
+    	width: 172px;
+    	display: inline-block;
+    	margin-top: 10px;
+    	margin-bottom: 29px;
+    	border: solid 2px #6c7c79;
+    	outline: none;
+    	padding: 10px;
+    	margin-right: 18px;
+    	&:focus{
+    		border: solid 2px #7fcddf;
+    		}
+    }
+
+    &__expiration-years-input {
+    	width: 93px;
+    	display: inline-block;
+    	margin-top: 10px;
+    	margin-bottom: 29px;
+    	border: solid 2px #6c7c79;
+    	outline: none;
+    	padding: 10px;
+    	&:focus{
+    		border: solid 2px #7fcddf;
+    		}
+    	}
+
+    	&__cvv-label {
+    		display: block;
+    	}
+
+    	&__cvv-input {
+    	width: 93px;
+    	display: inline-block;
+    	margin-top: 10px;
+    	margin-bottom: 30px;
+    	border: solid 2px #6c7c79;
+    	outline: none;
+    	padding: 10px;
+    	
+    	}
+
+    	&__cvv-paragraph {
+    		width: 164px;
+    		font-size: 12px;
+    		margin:0;
+    		padding: 0;
+    		display: inline-block;
+    	    margin-left: 10px;
+    		}
+
+    	&__cvv-link {
+    		color: #6c7c79;
+            padding-bottom: 1px;
+            border: none;
+            border-bottom: 1px solid #6c7c79;
+            text-decoration: none;
+    	}
+
+    	&__submit-input {
+    		color: #ffffff;
+    		background-color: #25b167;
+    		font-weight: bold;
+    		width: 288px;
+    		border: none;
+    		outline: none;
+    		padding: 15px;
+    		margin-top: 31px;
+    		margin-bottom: 23px;
+    	}
+
+    	&__footer {
+    		margin-left: 115px;
+    		padding-bottom: 19px;
+    		
+       	}
+        &__link {
+    		color: #6c7c79;
+            padding-bottom: 1px;
+            border: none;
+            border-bottom: 1px solid #6c7c79;
+            text-decoration: none;
+    	}	
+
+}
+
