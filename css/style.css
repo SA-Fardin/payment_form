@@ -481,17 +481,24 @@ th {
   border: none;
   border-bottom: 1px solid #6c7c79;
   text-decoration: none; }
+  .popup__cvv-link:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000; }
 
 .popup__submit-input {
   color: #ffffff;
   background-color: #25b167;
   font-weight: bold;
   width: 288px;
-  border: none;
+  border: 1px solid #25b167;
   outline: none;
   padding: 15px;
   margin-top: 31px;
   margin-bottom: 23px; }
+  .popup__submit-input:hover {
+    color: #25b167;
+    background-color: #ffffff;
+    border: 1px solid #25b167; }
 
 .popup__footer {
   margin-left: 115px;
@@ -503,3 +510,6 @@ th {
   border: none;
   border-bottom: 1px solid #6c7c79;
   text-decoration: none; }
+  .popup__link:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000; }

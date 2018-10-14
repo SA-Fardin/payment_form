@@ -141,6 +141,10 @@ body {
             border: none;
             border-bottom: 1px solid #6c7c79;
             text-decoration: none;
+            &:hover{
+                color: #000000;
+                border-bottom:1px solid #000000;
+            }
     	}
 
     	&__submit-input {
@@ -148,11 +152,16 @@ body {
     		background-color: #25b167;
     		font-weight: bold;
     		width: 288px;
-    		border: none;
+    		border: 1px solid #25b167;
     		outline: none;
     		padding: 15px;
     		margin-top: 31px;
     		margin-bottom: 23px;
+            &:hover {
+                color: #25b167;
+                background-color: #ffffff;
+                border: 1px solid #25b167; 
+            }
     	}
 
     	&__footer {
@@ -166,7 +175,12 @@ body {
             border: none;
             border-bottom: 1px solid #6c7c79;
             text-decoration: none;
-    	}	
+            &:hover{
+                color: #000000;
+                border-bottom:1px solid #000000;
+            }
+    	}
+        	
 
 }
 
